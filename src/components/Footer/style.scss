@@ -1,0 +1,13 @@
+#contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    background: rgb(254,249,255);
+    background: linear-gradient(0deg, rgba(254,249,255,1) 15%, rgba(242,223,215,1) 98%);
+    .image{
+        margin: 0 2rem;
+        width: 3rem;
+        height: 3rem;
+    }
+}

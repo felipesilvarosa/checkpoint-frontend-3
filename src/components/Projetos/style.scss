@@ -1,0 +1,44 @@
+#projetos{
+    background: rgb(242,223,215);
+    background: linear-gradient(0deg, rgba(242,223,215,1) 17%, rgba(212,193,236,1) 100%);
+    width: 100%;
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1rem;
+        margin: 0;
+        list-style-type: none;
+        li{
+            margin: 2rem 0;
+            img{
+                margin: 1rem 0;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+}
+@media (min-width:830px) {
+    #projetos{
+        ul{
+            padding: 10rem 0;
+            flex-direction: row;
+            margin: 0;
+            li{
+                width: 25%;
+                margin: 0 2rem;
+                img{
+                    width: 100%;
+                    height: auto;
+                    margin: 1rem 0;
+                }
+                a{
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}
